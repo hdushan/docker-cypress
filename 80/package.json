@@ -1,0 +1,11 @@
+{
+    "name": "cypressTestRunner",
+    "version": "1.0.0",
+    "license": "MIT",
+    "dependencies": {
+        "cypress": "^4.0.1",
+        "cypress-commands": "^1.0.0",
+        "cypress-terminal-report": "^0.2.2",
+        "cypress-promise": "^1.0.2"
+    }
+  }
