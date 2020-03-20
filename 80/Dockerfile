@@ -1,4 +1,4 @@
-FROM cypress/browsers:node13.6.0-chrome-80-ff72
+FROM cypress/browsers:node12.13.0-chrome80-ff74
 
 COPY package.json ./package.json
 
