@@ -7,5 +7,5 @@ ENV NODE_PATH=/node_modules/
 RUN npm install --quiet && \
     npm cache clean --force && \
     npm bin && \
-    ./node_modules/.bin/cypress verify && \
+    npx cypress verify && \
     npx browserslist@latest --update-db
