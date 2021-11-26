@@ -1,0 +1,27 @@
+{
+    "name": "cypressTestRunner",
+    "version": "1.0.0",
+    "license": "MIT",
+    "dependencies": {
+        "@slack/webhook": "^5.0.4",
+        "babel-eslint": "^10.1.0",
+        "cypress": "^9.1.0",
+        "eslint": "^7.32.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-chai-friendly": "^0.7.2",
+        "eslint-plugin-cypress": "^2.11.3",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "neat-csv": "^6.0.1",
+        "prettier": "^2.3.2",
+        "@testing-library/cypress": "^8.0.0",
+        "cypress-commands": "^1.1.0",
+        "cypress-promise": "^1.1.0",
+        "cypress-terminal-report": "^3.3.2",
+        "fs-extra": "^10.0.0",
+        "got": "^11.8.2",
+        "lodash": "^4.17.21"
+    }
+}
