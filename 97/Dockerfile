@@ -4,6 +4,11 @@ COPY package.json ./package.json
 
 ENV NODE_PATH=/node_modules/
 
+RUN apt-get update && \
+    apt-get install -y --force-yes awscli && \
+    aws --version && \
+    rm -rf /var/lib/apt/lists/*
+
 RUN npm install --quiet && \
     npm cache clean --force && \
     npm bin && \
